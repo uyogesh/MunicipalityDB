@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 80px;
+    width: 100%;
+    margin-left:50px;
+}
+
+.navItems{
+    flex:1;
+    align-self: center;
+    display: flex;
+    
+}
+
+.navButton{
+
+    background-color: transparent;
+    color: inherit;
+    border: none;
+}
+
+.navButtonActive {
+    background-color: transparent;
+    color: inherit;
+    border-bottom: #3cd52e;
+    border-style: groove;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

@@ -1,0 +1,179 @@
+.container{
+    padding-top:112px;
+    padding-left:32px;
+    padding-right:32px;
+    background-color: white;
+    display:inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+.titleContainer{
+  width: auto;
+  height: 43px;
+  background-color: #f0f9fb;
+  border: solid 1px #e2f3f7;
+  display: flex;
+  margin-top:24px;
+}
+.titleInner{
+    align-self: center;
+    margin:8px;
+}
+
+.titleMainUpper{
+    color:black;
+    font-size: 18px;
+}
+
+
+.titleMain{
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 120px;
+    max-width: 170px;
+}
+
+
+.titleSub{
+    font-size: 14px;
+    color: #969595;
+    margin-left:4px;
+}
+
+.rowTitle{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding:12px;
+}
+
+.rowElement{
+    flex:1;
+    margin-right:4px;
+    border-right-style: groove;
+    border-right-color: #969595;
+    border-right-width: 1px;
+    align-self: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowElementList{
+    flex:1;
+    margin-right:4px;
+    max-width:12%;
+    
+}
+.addAnotherContainer{
+    width: 82%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .addAnotherText{
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #32b027;
+    padding: 5px;
+    align-self: center;
+  }
+
+  .tableMigration{
+    margin-top: 200px;
+  }
+
+  .coloredText {
+      color: #32b027;
+  }
+  
+ .textField {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+      }
+
+
+  .modalList{
+      flex-direction: row;
+  }
+
+.rowList{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-style: inset;
+    border-bottom-color: #EEEEEE;
+    border-bottom-width: 1px;
+    height:30px;
+    margin:12px;
+
+}
+.filterInputBox{
+    margin-top: 10px;
+    margin-right:4px;
+}
+
+.textBlue{
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size: 14px;
+    color: #008cba;
+    align-self: center;
+
+}
+
+.textNormal{
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size: 14px;
+    color: #263746;
+    align-self: center;
+}
+.paginationBox{
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 200px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+}
+li.active a{
+    margin-right: 10px; 
+    color:black;
+}
+.linkClass{
+    margin-right: 10px;
+    color:#008cba;
+
+}
+.arrowUp {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    margin-top: 4px;
+  }
+  
+  .arrowDown {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #f00;
+    margin-top: 4px;
+  }
+  .arrowFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+

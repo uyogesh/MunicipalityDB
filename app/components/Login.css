@@ -1,0 +1,248 @@
+
+  .background {
+    width: 100%;
+    height: 900px;
+    background-color: #00a8e1;
+    margin: 0 auto;
+    padding:0 auto;
+  }
+  .image {
+    width:300px;
+    height:113.4px;
+    top: 108px;
+    left:490px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .danger{
+    color: #991111;
+    position: absolute;
+    top: 57%;
+    left: 47%;
+  }
+
+  .title{
+    top: 58px;
+    left:490px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .fnt40 {
+    font-size: 40px;
+    color: black;
+  }
+
+  .image2 {
+    width: auto;
+    height: 120px;
+    padding-top:8px;
+    padding-left:44px;
+    padding-bottom:25.4px;
+    padding-right:44px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+  }
+
+  .rectangle2 {
+    width: 500px;
+    height: 367px;
+    border-radius: 5px;
+    background-color: #f0f9fb;
+    position: absolute;
+    top:259px;
+    left:390px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+   
+  }
+  .email {
+    width: 44px;
+    height: 22px;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    position: absolute;
+    top: 81px;
+    left:50px;
+  }
+  .emailBox {
+    width: 275px;
+    height: 57px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    position: absolute;
+    top:63px;
+    left:175px;
+    padding-left:11px;
+  }
+  .password {
+    width: 78px;
+    height: 22px;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #333333;
+    position:absolute;
+    top:156px;
+    left:50px;
+  }
+  .passwordBox {
+    width: 275px;
+    height: 57px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    left:175px;
+    top: 138px;
+    padding-left:11px;
+    position: absolute;
+    top:138px;
+    left:175px;
+  }
+
+  .forgotPassword{
+    width: 183px;
+    height: 16px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #263746;
+    padding-bottom: 77px;
+    position: absolute;
+    top:274px;
+    left:50px;
+  }
+
+  .resetIt{
+    color: #00a8e1;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    position: relative;
+  }
+  ::placeholder {
+    width: 153px;
+    height: 16px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #cccccc;
+    padding-left:11px;
+    padding-right:111px;
+    padding-top:21px;
+    padding-bottom:20px;
+    position: relative;
+  }
+
+  .passwordBox::text{
+  width: 173px;
+  height: 16px;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+  }
+
+  .loginBox {
+    width: 128px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #3cd52e;
+    position: absolute;
+    left:322px;
+    top:259px;
+    padding: 0px;
+    margin:0px;
+  }
+
+
+  .login {
+    width: 65px;
+    height: 24px;
+    font-family: Futura;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top:11px;
+    padding-left:31px;
+    padding-bottom:10px;
+    padding-right:32px;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    position:relative;
+    top:220px;
+    width: 425px;
+  }
+  p
+  {
+    display:inline;
+  } 
+.invalid {
+  width: 266px;
+  height: 18px;
+  font-family: ProximaNova;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff001f;
+  position: relative;
+  top:223px;
+  display: block;
+  left:117px;
+  bottom:18px;
+}
+  
+
+
+
+
+
+
+
+
+
+  

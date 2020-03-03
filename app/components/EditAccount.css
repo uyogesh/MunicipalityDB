@@ -1,0 +1,479 @@
+.providerAccountBlank {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 0 auto;
+    padding-top:113px;
+    overflow-y: scroll;
+  }
+.pageTitleContainer{
+    width: 40%;
+    height: 32px;
+    font-family: Futura;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #008cba;
+    margin:20px;
+  }
+.boarderRectangle {
+    width: 1003px;
+    height: 2px;
+    background-color:#32b027;
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+
+  }
+.requiredRectangle {
+    width: auto;
+    height: 37px;
+    align-self:center;
+    background-color: #fecf40;
+    margin: 20px;
+    align-content: center;
+  }
+.fieldsMarkedWithAreRequired {
+    width: auto;
+    height: 14px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #263746;
+    margin:20px;
+    padding-top:12px;
+  }
+.generalInfoContainer{
+    width: 1005px;
+    height: auto;
+    background-color: #ffffff;
+    border: solid 1px #e2f3f7;
+    margin: 20px;
+}
+
+.commonContainer{
+  position:relative;
+  width:100%;
+  height:32px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  }
+  .horizontalContainer{
+  position:relative;
+  width:100%;
+  height:32px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  }
+
+.labelContainer{
+    width:20%;
+    height:100%;
+    padding-left: 35px;
+    padding-top: 8px;
+    }
+
+.textLabel{
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;    
+    }
+.inputBoxContainer{
+  width:80%;
+  height:100%;
+}
+.inputBox{
+  width:30%;
+  height:100%;
+  background-color:#FFF;
+  border:solid 1px #cccccc; 
+}
+.checkBoxContainer{
+  width: auto;
+  height: 32px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+}
+.checkboxLabel{
+  width: auto;
+  height: 14px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;
+}
+
+.contactInfoContainer{
+  width: 1005px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid 1px #e2f3f7;
+  margin: 20px;
+}
+.horizontalCon{
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  height:32px;
+  width:80%;
+  margin-top: 10px;
+  display: inline-block;
+}
+.verticalContainer{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  width:auto;
+  margin-top: 10px;
+  margin-left:30px;
+}
+labelBoxContainer{
+  height:17px;
+  width:auto;
+  display: inline-block;
+  padding-left:20px;
+  margin-right: 20px;
+}
+.inputBoxCon{
+  height: 32px;
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+  width:auto;
+  display: inline-block;
+  padding-left:20px;
+  margin-right: 20px;
+}
+.filesandDocumentContainer{
+  width: 1005px;
+  height:auto;
+  background-color: #ffffff;
+  margin-top: 5dp;
+  margin-left: 20px;
+  border: solid 1px #e2f3f7;
+}
+
+.devicesContainer{
+  width: 1005px;
+  height: auto;
+  background-color: #ffffff;
+  border: solid 1px #e2f3f7;
+  margin:20px;
+}
+.accountSettingsContainer{
+  width: 1005px;
+  background-color: #ffffff;
+  border: solid 1px #e2f3f7;
+  margin-top:5px;
+  margin-left:20px;
+}
+.accountCustomizationContainer{
+  width: 1005px;
+  height: 107px;
+  background-color: #ffffff;
+  border: solid 1px #e2f3f7;
+  margin-top:20px;
+  margin-left:20px;
+}
+.toggleButtonContainer{
+  width: 1005px;
+  background-color: #ffffff;
+  margin-top:5px;
+  margin-block-end: true;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;
+}
+.buttonContainer{
+  width: 1005px;
+  height:auto;
+  margin-top: 5px;
+
+}
+.saveButton{
+  width:15%;
+  height: 48px;
+  border-radius: 4px;
+  float: right;
+  background-color: #3cd52e;
+  font-family: Futura;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin: 20px;
+}
+
+.titleContainer{
+  width: 1005px;
+  height: 36px;
+  background-color: #e2f3f7;
+  margin-top: 5dp;
+}
+.titleText{
+  width: 30%;
+  height: 19px;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;
+  margin-top: 5dp;
+}
+.hr{
+  border-width: 1px;
+  width:935px;
+}
+.addAnotherContainer{
+  width: 40%;
+  height: auto;
+  margin:20px;
+}
+.addAnotherText{
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #32b027;
+  padding: 5px;
+}
+.errorText{
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(179, 6, 6);  
+  padding-left: 5px;  
+}
+.textlabel{
+  width:20%;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;
+  margin-left:35px;
+  margin-top: 10px;
+  display: inline-block
+}
+.inputBoxRowContainer{
+  width:20%;
+  height:32px;
+  margin-left:35px;
+}
+.inputBoxRow{
+  width:90%;
+  height:100%;
+  background-color:#FFF;
+  border:solid 1px #cccccc; 
+
+}
+.deviceInner{
+
+  display: flex;
+  margin-left: 35px;
+  margin-top:10px;
+
+}
+
+.deviceRow{
+
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  width: 100%;
+  margin-left: 11px;
+
+
+}
+
+.deviceDivShort{
+  flex:2
+}
+
+
+.deviceDivLong{
+  flex:9
+}
+
+.inputBoxDevice{
+  width:70%;
+  height:100%;
+  background-color:#FFF;
+  border:solid 1px #cccccc; 
+}
+.indexLabel{
+  height: 17px;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #263746;  
+  margin-left:35px;  
+}
+.backButton{
+  background-color:burlywood;
+  width:40px;
+}
+/* CSS for the Alert Dialouge */
+.react-confirm-alert-blur {
+  filter: url(#gaussian-blur);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.react-confirm-alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.9);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -moz-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -o-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+.react-confirm-alert {}
+
+.react-confirm-alert-body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 30px;
+  text-align: left;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+  color: #666;
+}
+
+.react-confirm-alert-svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.react-confirm-alert-body > h1 {
+  margin-top: 0;
+}
+
+.react-confirm-alert-body > h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.react-confirm-alert-button-group {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.react-confirm-alert-button-group > button {
+  outline: none;
+  background: #333;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

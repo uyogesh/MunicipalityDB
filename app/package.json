@@ -1,0 +1,18 @@
+{
+  "name": "check-svadmin",
+  "productName": "CheckSVAdmin",
+  "version": "0.1.0",
+  "description": "Electron Application to manage SilverVue Check product",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "SilverVue",
+    "email": "devops@silvervue.com",
+    "url": "https://check.silvervue.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "npm run electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
