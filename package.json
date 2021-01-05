@@ -180,7 +180,7 @@
   "dependencies": {
     "@material-ui/core": "^1.4.3",
     "@material-ui/icons": "^2.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "devtron": "^1.4.0",
     "electron-debug": "^1.5.0",
     "font-awesome": "^4.7.0",
