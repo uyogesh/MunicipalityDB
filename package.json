@@ -187,7 +187,7 @@
     "history": "^4.7.2",
     "mongodb-backup": "^1.6.9",
     "mongodb-restore": "^1.6.2",
-    "mongoose": "^5.2.6",
+    "mongoose": "^5.7.5",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
